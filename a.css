@@ -1,0 +1,107 @@
+body{
+    background: #EEE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.log-In{
+    background: #fff;
+    width: 800px;
+    position: relative;
+    margin: 5% auto;
+    height: 400px
+    
+}
+.right-logIn{
+    width: 400px;
+    background: #fff;
+     position: absolute;
+            box-shadow: 0 0 2px 0 rgba(0,0,0,.7);
+      
+}
+input[type="text"],input[type="password"]{
+   display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 76%;
+    height: 23px;
+    margin-left: 40px;
+    border: none;
+    border-bottom: 1px solid #000;
+        outline: none;
+  
+   
+}
+h1{
+        margin-left: 51px;
+    margin-top:  44px;;
+    color: #908585;
+}
+input[type="submit"]{
+    background: #f00;
+    padding: 10px;
+    width: 124px;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin-left: 38px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.left-login{
+        position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url(aa.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+        box-shadow: 0 0 2px 0 rgba(0,0,0,.7);
+    height: 428px;
+
+}
+span{
+        color: #fff;
+    /* margin-top: 20px; */
+    text-align: center;
+    display: block;
+    margin: 46px auto;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+button{
+        display: block;
+    margin: 19px auto;
+    width: 284px;
+    padding: 14px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+
+}
+.or{
+    
+    position: absolute;
+    top: 200px;
+    left: 389px;
+    z-index: 2;
+    background: #afafaf;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    
+}
+.facebook{
+    background: #00f;
+    cursor: pointer
+}
+.twitter{
+    background:green;     cursor: pointer
+}
+.google{
+    background: red;    cursor: pointer
+}
